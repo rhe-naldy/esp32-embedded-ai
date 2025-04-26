@@ -3,3 +3,19 @@ This repository serves as an archive for a Master's degree project in Computer S
 The header file [c_req_aug_vabc_VGGNet.h](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/c_req_aug_vabc_VGGNet.h) contains a model converted from a TensorFlow Lite (TFLITE) model, which was originally a lightweight VGG model coded from scratch by the author. After training the model from scratch, the model then undergo model pruning and model quantization in order to reduce the model size and fit it into the ESP32-S3-N16R8 microcontroller. Equipped with 8MB of PSRAM, the microcontroller was able to run the TFLite model, which required approximately only 2MB of PSRAM and an average runtime of 12.1 seconds.
   
 Both the header file and the ESP32 firmware can be accessed within this repository under the filenames [c_req_aug_vabc_VGGNet.h](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/c_req_aug_vabc_VGGNet.h) and [ESP3S3_CAM.ino](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/ESP32S3_CAM.ino), respectively.
+
+Below are detailed images regarding the project.
+* System architecture diagram
+![archtecture_diagram.png]([https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/architecture_diagram.png](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/architecture_diagram.png?raw=true))
+  
+  
+* Circuit diagram
+![circuit_diagram.png](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/circuit_diagram.png?raw=true)
+  
+  
+* Image of the prototype
+![hardware_image.jpg](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/hardware_image.jpg?raw=true)
+  
+  
+* Image of the inference
+![inference_image.jpg](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/inference_image.jpg?raw=true)
