@@ -11,7 +11,7 @@ Below are detailed images regarding the project.
   
   
 * Circuit diagram
-<img src="https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/circuit_diagram.png?raw=true" width="48">
+<img src="https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/circuit_diagram.png?raw=true" width="256">
   
   
 * Image of the prototype
