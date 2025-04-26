@@ -7,7 +7,7 @@ Both the header file and the ESP32 firmware can be accessed within this reposito
 Below are detailed images regarding the project.
   
 * System architecture diagram  
-![archtecture_diagram.png](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/architecture_diagram.png?raw=true)
+<img src="https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/architecture_diagram.png?raw=true" width="256">
   
   
 * Circuit diagram
@@ -15,8 +15,8 @@ Below are detailed images regarding the project.
   
   
 * Image of the prototype
-![hardware_image.jpg](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/hardware_image.jpg?raw=true)
+<img src="https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/hardware_image.jpg?raw=true" width="256">
   
   
 * Image of the inference
-![inference_image.jpg](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/inference_image.jpg?raw=true)
+<img src="https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/inference_image.jpg?raw=true" width="256">
