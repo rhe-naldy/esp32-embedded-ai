@@ -1,0 +1,5 @@
+This repository serves as an archive for a master's degree in Computer Science, titled "Development of Lightweight Models using Vegetation Indices to Identify Tomato Leaf Disease Deployed on a Microcontroller", published onto Bina Nusantara University's repository and on progress to be published on a journal.
+  
+The header file named [c_req_aug_vabc_VGGNet.h](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/c_req_aug_vabc_VGGNet.h) is a header file converted from a TFLITE model, which was originally a lightweight VGGNet model coded from scratch by the author. After training the model from scratch, the model then undergo model pruning and model quantization in order to reduce the model size and fit it into the ESP32-S3-N16R8 microcontroller. With 8MB of PSRAM equipped, the microcontroller was able to run a TFLITE model which only required about 2MB of PSRAM. 
+  
+The header file and the ESP32 firmware can be accessed within this repository, titled [c_req_aug_vabc_VGGNet.h](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/c_req_aug_vabc_VGGNet.h) and [ESP3S3_CAM.ino](https://github.com/rhe-naldy/esp32-embedded-ai/blob/main/ESP32S3_CAM.ino).
